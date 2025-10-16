@@ -95,3 +95,73 @@
 2025-10-15 17:19:06 [32minfo[39m [32m::1 - - [15/Oct/2025:11:49:06 +0000] "POST /teacher HTTP/1.1" 400 177 "-" "PostmanRuntime/7.48.0"[39m
 2025-10-15 17:20:49 [32minfo[39m [32m::1 - - [15/Oct/2025:11:50:49 +0000] "POST /teacher HTTP/1.1" 201 284 "-" "PostmanRuntime/7.48.0"[39m
 2025-10-15 17:23:44 [32minfo[39m [32m::1 - - [15/Oct/2025:11:53:44 +0000] "GET /teacher HTTP/1.1" 200 264 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 18:25:28 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-15 18:25:40 [31merror[39m [31mRedis connection error : connect ETIMEDOUT[39m
+2025-10-15 18:25:40 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 18:26:00 [31merror[39m [31mRedis connection error : connect ETIMEDOUT[39m
+2025-10-15 18:26:00 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 18:26:10 [31merror[39m [31mError Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2025-10-15 18:27:55 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-15 18:28:05 [31merror[39m [31mRedis connection error : connect ETIMEDOUT[39m
+2025-10-15 18:28:05 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 18:28:25 [31merror[39m [31mRedis connection error : connect ETIMEDOUT[39m
+2025-10-15 18:28:25 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 18:28:51 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-15 18:29:27 [31merror[39m [31mError Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2025-10-15 20:32:19 [32minfo[39m [32mServer running on https://127.0.0.1:5000 in development mode[39m
+2025-10-15 20:32:20 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-15 20:32:22 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
+2025-10-15 20:32:32 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - 127.0.0.1[39m
+2025-10-15 20:32:32 [32minfo[39m [32m127.0.0.1 - - [15/Oct/2025:15:02:32 +0000] "GET /teacher HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:32:41 [31merror[39m [31m404 - Can't find /teachers on this server This End Point not Exists ! - /teachers - GET - 127.0.0.1[39m
+2025-10-15 20:32:41 [32minfo[39m [32m127.0.0.1 - - [15/Oct/2025:15:02:41 +0000] "GET /teachers HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:34:12 [31merror[39m [31m404 - Can't find /api/teacher/create on this server This End Point not Exists ! - /api/teacher/create - GET - 127.0.0.1[39m
+2025-10-15 20:34:12 [32minfo[39m [32m127.0.0.1 - - [15/Oct/2025:15:04:12 +0000] "GET /api/teacher/create HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:34:15 [31merror[39m [31m404 - Can't find /api/teacher/create on this server This End Point not Exists ! - /api/teacher/create - GET - 127.0.0.1[39m
+2025-10-15 20:34:15 [32minfo[39m [32m127.0.0.1 - - [15/Oct/2025:15:04:15 +0000] "GET /api/teacher/create HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:36:39 [32minfo[39m [32mServer running on https://127.0.0.1:5000 in development mode[39m
+2025-10-15 20:36:39 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-15 20:36:43 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
+2025-10-15 20:37:20 [31merror[39m [31m404 - Can't find /api/teacher/create on this server This End Point not Exists ! - /api/teacher/create - GET - 127.0.0.1[39m
+2025-10-15 20:37:20 [32minfo[39m [32m127.0.0.1 - - [15/Oct/2025:15:07:20 +0000] "GET /api/teacher/create HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:37:26 [31merror[39m [31m404 - Can't find /api/teacher on this server This End Point not Exists ! - /api/teacher - GET - 127.0.0.1[39m
+2025-10-15 20:37:26 [32minfo[39m [32m127.0.0.1 - - [15/Oct/2025:15:07:26 +0000] "GET /api/teacher HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:40:37 [32minfo[39m [32mServer running on https://127.0.0.1:5000 in development mode[39m
+2025-10-15 20:40:37 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-15 20:40:41 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
+2025-10-15 20:40:57 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - 127.0.0.1[39m
+2025-10-15 20:40:57 [32minfo[39m [32m127.0.0.1 - - [15/Oct/2025:15:10:57 +0000] "GET /teacher HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:41:13 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - 127.0.0.1[39m
+2025-10-15 20:41:13 [32minfo[39m [32m127.0.0.1 - - [15/Oct/2025:15:11:13 +0000] "GET /teacher HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:41:38 [32minfo[39m [32m127.0.0.1 - - [15/Oct/2025:15:11:38 +0000] "POST /teacher/create HTTP/1.1" 500 167 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:41:51 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - 127.0.0.1[39m
+2025-10-15 20:41:51 [32minfo[39m [32m127.0.0.1 - - [15/Oct/2025:15:11:51 +0000] "GET /teacher HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:49:51 [32minfo[39m [32mServer running on https://localhost:7000 in development mode[39m
+2025-10-15 20:49:52 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-15 20:49:53 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
+2025-10-15 20:50:13 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - ::1[39m
+2025-10-15 20:50:13 [32minfo[39m [32m::1 - - [15/Oct/2025:15:20:13 +0000] "GET /teacher HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:54:39 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-15 20:54:39 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-15 20:54:41 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
+2025-10-15 20:54:58 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - ::1[39m
+2025-10-15 20:54:58 [32minfo[39m [32m::1 - - [15/Oct/2025:15:24:58 +0000] "GET /teacher HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 20:59:38 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-15 20:59:39 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-15 20:59:42 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
+2025-10-15 21:03:06 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - ::1[39m
+2025-10-15 21:03:06 [32minfo[39m [32m::1 - - [15/Oct/2025:15:33:06 +0000] "GET /teacher HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:03:16 [32minfo[39m [32m::1 - - [15/Oct/2025:15:33:16 +0000] "GET /teacher/create HTTP/1.1" 400 40 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:03:30 [32minfo[39m [32m::1 - - [15/Oct/2025:15:33:30 +0000] "POST /teacher/create HTTP/1.1" 201 323 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:04:14 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - ::1[39m
+2025-10-15 21:04:14 [32minfo[39m [32m::1 - - [15/Oct/2025:15:34:14 +0000] "GET /teacher HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:05:49 [32minfo[39m [32m::1 - - [15/Oct/2025:15:35:49 +0000] "GET /teacher/all HTTP/1.1" 200 543 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:06:54 [32minfo[39m [32m::1 - - [15/Oct/2025:15:36:54 +0000] "POST /teacher/create HTTP/1.1" 201 327 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:07:01 [32minfo[39m [32m::1 - - [15/Oct/2025:15:37:01 +0000] "GET /teacher/all HTTP/1.1" 200 784 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:11:44 [32minfo[39m [32m::1 - - [15/Oct/2025:15:41:44 +0000] "PUT /teacher/68efbf936e076f48b0f207af HTTP/1.1" 200 327 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:11:54 [32minfo[39m [32m::1 - - [15/Oct/2025:15:41:54 +0000] "GET /teacher/all HTTP/1.1" 200 784 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:12:04 [32minfo[39m [32m::1 - - [15/Oct/2025:15:42:04 +0000] "GET /teacher/all HTTP/1.1" 200 784 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:12:46 [32minfo[39m [32m::1 - - [15/Oct/2025:15:42:46 +0000] "DELETE /teacher/68efbec96e076f48b0f207ab HTTP/1.1" 200 57 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:12:52 [32minfo[39m [32m::1 - - [15/Oct/2025:15:42:52 +0000] "GET /teacher/all HTTP/1.1" 200 547 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:17:20 [32minfo[39m [32m::1 - - [15/Oct/2025:15:47:20 +0000] "PUT /teacher/68efbf936e076f48b0f207af HTTP/1.1" 500 131 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:17:50 [32minfo[39m [32m::1 - - [15/Oct/2025:15:47:50 +0000] "PUT /teacher/68efbf936e076f48b0f207af HTTP/1.1" 200 325 "-" "PostmanRuntime/7.48.0"[39m

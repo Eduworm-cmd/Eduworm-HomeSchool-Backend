@@ -36,3 +36,22 @@
 2025-10-15 16:52:00 [31merror[39m [31mRedis connection error : getaddrinfo EINVAL ‪redis-19324.crce179.ap-south-1-1.ec2.redns.redis-cloud.com‬[39m
 2025-10-15 17:10:14 [31merror[39m [31m404 - Can't find /api/v1/teachers on this server This End Point not Exists ! - /api/v1/teachers - GET - ::1[39m
 2025-10-15 17:11:18 [31merror[39m [31m404 - Can't find /api/v1/user on this server This End Point not Exists ! - /api/v1/user - GET - ::1[39m
+2025-10-15 18:25:40 [31merror[39m [31mRedis connection error : connect ETIMEDOUT[39m
+2025-10-15 18:26:00 [31merror[39m [31mRedis connection error : connect ETIMEDOUT[39m
+2025-10-15 18:26:10 [31merror[39m [31mError Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2025-10-15 18:28:05 [31merror[39m [31mRedis connection error : connect ETIMEDOUT[39m
+2025-10-15 18:28:25 [31merror[39m [31mRedis connection error : connect ETIMEDOUT[39m
+2025-10-15 18:29:27 [31merror[39m [31mError Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2025-10-15 20:32:32 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - 127.0.0.1[39m
+2025-10-15 20:32:41 [31merror[39m [31m404 - Can't find /teachers on this server This End Point not Exists ! - /teachers - GET - 127.0.0.1[39m
+2025-10-15 20:34:12 [31merror[39m [31m404 - Can't find /api/teacher/create on this server This End Point not Exists ! - /api/teacher/create - GET - 127.0.0.1[39m
+2025-10-15 20:34:15 [31merror[39m [31m404 - Can't find /api/teacher/create on this server This End Point not Exists ! - /api/teacher/create - GET - 127.0.0.1[39m
+2025-10-15 20:37:20 [31merror[39m [31m404 - Can't find /api/teacher/create on this server This End Point not Exists ! - /api/teacher/create - GET - 127.0.0.1[39m
+2025-10-15 20:37:26 [31merror[39m [31m404 - Can't find /api/teacher on this server This End Point not Exists ! - /api/teacher - GET - 127.0.0.1[39m
+2025-10-15 20:40:57 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - 127.0.0.1[39m
+2025-10-15 20:41:13 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - 127.0.0.1[39m
+2025-10-15 20:41:51 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - 127.0.0.1[39m
+2025-10-15 20:50:13 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - ::1[39m
+2025-10-15 20:54:58 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - ::1[39m
+2025-10-15 21:03:06 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - ::1[39m
+2025-10-15 21:04:14 [31merror[39m [31m404 - Can't find /teacher on this server This End Point not Exists ! - /teacher - GET - ::1[39m

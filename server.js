@@ -11,7 +11,7 @@ connectDB();
 
 
 
-const PORT = config.port || 7000;
+const PORT = config.port || 5000;
 const HOST = config.host;
 
 
