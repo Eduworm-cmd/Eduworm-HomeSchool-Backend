@@ -20,21 +20,20 @@ const teacherSchema = new mongoose.Schema(
     },
     subject: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "SubjectKit", // Ensure your SubjectKit model exists
-      required: [true, "Subject is required"],
-    },
+      ref: "SubjectKit", // ye reference SubjectKit ko point karega
+     required: [true, "Subject is required"]
+   },
     experience: {
       type: Number,
       required: [true, "Experience is required"],
-      min: [0, "Experience cannot be negative"],
+      min: 0,
     },
     profileImage: {
-      type: String, // Cloudinary URL or local path
-      default: "",  // Default empty if no image uploaded
+      type: String, // URL or path of profile image
     },
   },
   { timestamps: true }
 );
 
-// Prevent model recompilation errors in development
-module.exports = mongoose.models.Teacher || mongoose.model("Teacher", teacherSchema);
+module.exports =
+  mongoose.models.Teacher || mongoose.model("Teacher", teacherSchema);
