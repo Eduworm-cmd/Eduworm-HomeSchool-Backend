@@ -95,3 +95,18 @@
 2025-10-15 17:19:06 [32minfo[39m [32m::1 - - [15/Oct/2025:11:49:06 +0000] "POST /teacher HTTP/1.1" 400 177 "-" "PostmanRuntime/7.48.0"[39m
 2025-10-15 17:20:49 [32minfo[39m [32m::1 - - [15/Oct/2025:11:50:49 +0000] "POST /teacher HTTP/1.1" 201 284 "-" "PostmanRuntime/7.48.0"[39m
 2025-10-15 17:23:44 [32minfo[39m [32m::1 - - [15/Oct/2025:11:53:44 +0000] "GET /teacher HTTP/1.1" 200 264 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-16 13:08:01 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-16 13:08:01 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-16 13:08:02 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-02.ltmzqi.mongodb.net[39m
+2025-10-16 16:09:00 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-16 16:09:00 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-16 16:09:01 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-01.ltmzqi.mongodb.net[39m
+2025-10-16 16:10:12 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-16 16:10:12 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-16 16:10:13 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-02.ltmzqi.mongodb.net[39m
+2025-10-16 16:25:06 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-16 16:25:06 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-16 16:25:09 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
+2025-10-16 16:27:14 [32minfo[39m [32m::1 - - [16/Oct/2025:10:57:14 +0000] "GET /api/v1/teacher/all HTTP/1.1" 200 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-16 16:27:55 [32minfo[39m [32m::1 - - [16/Oct/2025:10:57:55 +0000] "GET /api/v1/teacher/all HTTP/1.1" 200 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-16 16:36:32 [32minfo[39m [32m::1 - - [16/Oct/2025:11:06:32 +0000] "GET /api/v1/teacher/all HTTP/1.1" 200 - "-" "PostmanRuntime/7.48.0"[39m
