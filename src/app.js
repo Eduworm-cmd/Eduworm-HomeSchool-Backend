@@ -2,38 +2,29 @@ const express = require('express');
 const helmet = require('helmet');
 const cors = require('cors');
 const compression = require('compression');
-const routes = require('./routes');
-const { errorMiddleware } = require('./middlewares/error.middleware');
-const ApiError = require('./utils/ApiError');
-const logger = require('./utils/logger');
 const morgan = require('morgan');
+const cookieParser = require('cookie-parser');
+const logger = require('./utils/logger');
+const ApiError = require('./utils/ApiError');
+const { errorMiddleware } = require('./middlewares/error.middleware');
 const config = require('./config/env');
 const { redisClient } = require('./config/redis');
-const cookieParser = require('cookie-parser');
-const teacherRought = require('./routes/teacher.routes');
+const teacherRoutes = require('./routes/teacher.routes');
 
 const app = express();
 
 // Security middleware
 app.use(helmet());
-// CORS
-app.use(cors({
-  origin: config.clientUrl || '*',
-  credentials: true
-}));
-
-// Body parser
+app.use(cors({ origin: config.clientUrl || '*', credentials: true }));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
-
 app.use(cookieParser());
-// Compress Data
 app.use(compression());
 
-// Logs Details
+// Logging
 app.use(morgan('combined', { stream: { write: message => logger.info(message.trim()) } }));
 
-
+// Root route
 app.get('/', (req, res) => {
   res.status(200).json({
     status: 'OK',
@@ -41,15 +32,15 @@ app.get('/', (req, res) => {
     timestamp: new Date().toISOString(),
     endpoints: {
       health: '/health',
-      api: '/api/v1'
+      teacher: '/teacher/all'
     }
   });
 });
 
+// Health check
 app.get('/health', async (req, res) => {
   try {
     await redisClient.ping();
-
     res.status(200).json({
       status: 'OK',
       timestamp: new Date().toISOString(),
@@ -59,27 +50,25 @@ app.get('/health', async (req, res) => {
         database: 'connected'
       }
     });
-  } catch (error) {
+  } catch (err) {
     res.status(503).json({
       status: 'ERROR',
       timestamp: new Date().toISOString(),
-      services: {
-        server: 'running',
-        redis: 'disconnected',
-        database: 'unknown'
-      }
+      services: { server: 'running', redis: 'disconnected', database: 'unknown' }
     });
   }
 });
-app.use('/teacher', teacherRought);
-// API routes
-app.use('/api/v1', routes)
 
+
+// API v1
+app.use('/api/v1', require('./routes'));
+
+// 404 handler
 app.use((req, res, next) => {
   next(new ApiError(404, `Can't find ${req.originalUrl} on this server This End Point not Exists !`));
 });
 
-
+// Error middleware
 app.use(errorMiddleware);
 
 module.exports = app;

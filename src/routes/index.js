@@ -7,7 +7,7 @@ const adminRoutes = require('./admin.routes');
 const ageGroupRoutes = require('./ageGroup.routes');
 const subjectRoutes = require('./subjectKit.routes');
 const quizGameRoutes = require('./quizGame.routes');
-// const teacherRought = require('./teacher.routes');
+const teacherRoutes = require('./teacher.routes');
 
 // Mount routes
 router.use('/auth', authRoutes);
@@ -16,7 +16,7 @@ router.use('/admin', adminRoutes);
 router.use('/ageGroup', ageGroupRoutes);
 router.use('/subjectKit', subjectRoutes);
 router.use('/quizGame', quizGameRoutes);
-// router.use('/teacher', teacherRought);
+router.use('/teacher', teacherRoutes);
 
 router.get('/', (req, res) => {
   res.json({
