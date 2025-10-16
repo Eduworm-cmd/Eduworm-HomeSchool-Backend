@@ -165,3 +165,26 @@
 2025-10-15 21:12:52 [32minfo[39m [32m::1 - - [15/Oct/2025:15:42:52 +0000] "GET /teacher/all HTTP/1.1" 200 547 "-" "PostmanRuntime/7.48.0"[39m
 2025-10-15 21:17:20 [32minfo[39m [32m::1 - - [15/Oct/2025:15:47:20 +0000] "PUT /teacher/68efbf936e076f48b0f207af HTTP/1.1" 500 131 "-" "PostmanRuntime/7.48.0"[39m
 2025-10-15 21:17:50 [32minfo[39m [32m::1 - - [15/Oct/2025:15:47:50 +0000] "PUT /teacher/68efbf936e076f48b0f207af HTTP/1.1" 200 325 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:29:54 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-15 21:29:54 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-15 21:29:56 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
+2025-10-15 21:30:17 [32minfo[39m [32m::1 - - [15/Oct/2025:16:00:17 +0000] "GET /teacher/all HTTP/1.1" 200 545 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:30:31 [32minfo[39m [32m::1 - - [15/Oct/2025:16:00:31 +0000] "POST /teacher/create HTTP/1.1" 500 167 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:30:38 [32minfo[39m [32m::1 - - [15/Oct/2025:16:00:38 +0000] "POST /teacher/create HTTP/1.1" 400 59 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:31:11 [32minfo[39m [32m::1 - - [15/Oct/2025:16:01:11 +0000] "POST /teacher/create HTTP/1.1" 500 167 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 21:31:21 [32minfo[39m [32m::1 - - [15/Oct/2025:16:01:21 +0000] "POST /teacher/create HTTP/1.1" 201 326 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-16 09:24:01 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-16 09:24:01 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-16 09:24:02 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
+2025-10-16 09:24:04 [32minfo[39m [32m::1 - - [16/Oct/2025:03:54:04 +0000] "GET /teacher/all HTTP/1.1" 200 785 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-16 09:36:33 [31merror[39m [31mRedis connection error : read ECONNRESET[39m
+2025-10-16 09:36:33 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-16 09:36:43 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-16 09:38:45 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-16 09:38:46 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-16 09:38:47 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
+2025-10-16 09:40:13 [32minfo[39m [32m::1 - - [16/Oct/2025:04:10:13 +0000] "GET /teacher/all HTTP/1.1" 200 841 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-16 10:03:01 [32minfo[39m [32m::1 - - [16/Oct/2025:04:33:01 +0000] "GET /teacher/all HTTP/1.1" 200 841 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-16 10:24:49 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-16 10:24:49 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-16 10:24:50 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
