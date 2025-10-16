@@ -1,0 +1,97 @@
+2025-10-15 16:01:22 [32minfo[39m [32mServer running on https://undefined:5000 in development mode[39m
+2025-10-15 16:01:22 [32minfo[39m [32mMongoDB Connected: undefined[39m
+2025-10-15 16:01:22 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:01:22 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:01:32 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:01:32 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:01:52 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:01:52 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:02:22 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:02:22 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:03:02 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:03:02 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:03:52 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:03:52 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:04:52 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:04:52 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:06:02 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:06:02 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:07:22 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:07:22 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:08:52 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:08:52 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:10:32 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:10:32 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:12:22 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:12:22 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:20:18 [32minfo[39m [32mServer running on https://undefined:5000 in development mode[39m
+2025-10-15 16:20:18 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:20:18 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:20:19 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-01.ltmzqi.mongodb.net[39m
+2025-10-15 16:20:28 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:20:28 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:20:48 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:20:48 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:21:18 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:21:18 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:21:58 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:21:58 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:22:48 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:22:48 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:23:48 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:23:48 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:24:58 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:24:58 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:26:18 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:26:18 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:27:48 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:27:48 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:29:28 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:29:28 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:31:18 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:31:18 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:33:18 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:33:18 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:35:28 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:35:28 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:37:48 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:37:48 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:40:18 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:40:18 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:42:58 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:42:58 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:45:48 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:45:48 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:48:48 [31merror[39m [31mRedis connection error : connect ECONNREFUSED 127.0.0.1:6379[39m
+2025-10-15 16:48:48 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:50:20 [32minfo[39m [32mServer running on https://192.168.1.5:5000 in development mode[39m
+2025-10-15 16:50:20 [31merror[39m [31mRedis connection error : getaddrinfo EINVAL ‪redis-19324.crce179.ap-south-1-1.ec2.redns.redis-cloud.com‬[39m
+2025-10-15 16:50:20 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:50:21 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-00.ltmzqi.mongodb.net[39m
+2025-10-15 16:50:30 [31merror[39m [31mRedis connection error : getaddrinfo EINVAL ‪redis-19324.crce179.ap-south-1-1.ec2.redns.redis-cloud.com‬[39m
+2025-10-15 16:50:30 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:50:50 [31merror[39m [31mRedis connection error : getaddrinfo EINVAL ‪redis-19324.crce179.ap-south-1-1.ec2.redns.redis-cloud.com‬[39m
+2025-10-15 16:50:50 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:51:20 [31merror[39m [31mRedis connection error : getaddrinfo EINVAL ‪redis-19324.crce179.ap-south-1-1.ec2.redns.redis-cloud.com‬[39m
+2025-10-15 16:51:20 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:52:00 [31merror[39m [31mRedis connection error : getaddrinfo EINVAL ‪redis-19324.crce179.ap-south-1-1.ec2.redns.redis-cloud.com‬[39m
+2025-10-15 16:52:00 [33mwarn[39m [33mRedis reconnecting...[39m
+2025-10-15 16:52:13 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-15 16:52:13 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-15 16:52:14 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-02.ltmzqi.mongodb.net[39m
+2025-10-15 17:03:10 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-15 17:03:11 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-15 17:03:12 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-02.ltmzqi.mongodb.net[39m
+2025-10-15 17:10:14 [31merror[39m [31m404 - Can't find /api/v1/teachers on this server This End Point not Exists ! - /api/v1/teachers - GET - ::1[39m
+2025-10-15 17:10:14 [32minfo[39m [32m::1 - - [15/Oct/2025:11:40:14 +0000] "GET /api/v1/teachers HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 17:11:18 [31merror[39m [31m404 - Can't find /api/v1/user on this server This End Point not Exists ! - /api/v1/user - GET - ::1[39m
+2025-10-15 17:11:18 [32minfo[39m [32m::1 - - [15/Oct/2025:11:41:18 +0000] "GET /api/v1/user HTTP/1.1" 404 - "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 17:13:01 [32minfo[39m [32m::1 - - [15/Oct/2025:11:43:01 +0000] "GET /health HTTP/1.1" 200 129 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 17:14:21 [32minfo[39m [32mServer running on https://localhost:5000 in development mode[39m
+2025-10-15 17:14:22 [32minfo[39m [32mRedis connected successfully[39m
+2025-10-15 17:14:23 [32minfo[39m [32mMongoDB Connected: eduworm-games-shard-00-02.ltmzqi.mongodb.net[39m
+2025-10-15 17:14:42 [32minfo[39m [32m::1 - - [15/Oct/2025:11:44:42 +0000] "GET /teacher HTTP/1.1" 200 26 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 17:18:34 [32minfo[39m [32m::1 - - [15/Oct/2025:11:48:34 +0000] "POST /teacher HTTP/1.1" 400 169 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 17:19:06 [32minfo[39m [32m::1 - - [15/Oct/2025:11:49:06 +0000] "POST /teacher HTTP/1.1" 400 177 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 17:20:49 [32minfo[39m [32m::1 - - [15/Oct/2025:11:50:49 +0000] "POST /teacher HTTP/1.1" 201 284 "-" "PostmanRuntime/7.48.0"[39m
+2025-10-15 17:23:44 [32minfo[39m [32m::1 - - [15/Oct/2025:11:53:44 +0000] "GET /teacher HTTP/1.1" 200 264 "-" "PostmanRuntime/7.48.0"[39m

@@ -10,6 +10,7 @@ const morgan = require('morgan');
 const config = require('./config/env');
 const { redisClient } = require('./config/redis');
 const cookieParser = require('cookie-parser');
+const teacherRought = require('./routes/teacher.routes');
 
 const app = express();
 
@@ -45,7 +46,6 @@ app.get('/', (req, res) => {
   });
 });
 
-
 app.get('/health', async (req, res) => {
   try {
     await redisClient.ping();
@@ -71,13 +71,14 @@ app.get('/health', async (req, res) => {
     });
   }
 });
-
+app.use('/teacher', teacherRought);
 // API routes
 app.use('/api/v1', routes)
 
 app.use((req, res, next) => {
   next(new ApiError(404, `Can't find ${req.originalUrl} on this server This End Point not Exists !`));
 });
+
 
 app.use(errorMiddleware);
 
