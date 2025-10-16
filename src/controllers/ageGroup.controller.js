@@ -83,6 +83,17 @@ class AgeGroupController {
       totalAgeGroup === 0 ? 'No Age Group data found' : 'All Age Group fetched successfully'
     ));
   });
+
+
+  dropdown = asyncHandler(async(req,res) =>{
+      const ageGroups = await ageGroupModel.find().select('name');
+
+      if(!ageGroups.length){
+          throw new ApiError(404,'No Age Groups found');
+      }
+      res.status(200).json(new ApiResponse(200,ageGroups,'Age Groups fetched successfully')); 
+  });
+  
 }
 
 module.exports = new AgeGroupController();

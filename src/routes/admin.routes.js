@@ -13,4 +13,5 @@ router.post('/refreshToken', apiLimiter, adminController.refreshToken);
 
 router.post('/logout', isAdmin,apiLimiter, adminController.logoutAdmin);
 
+
 module.exports = router;

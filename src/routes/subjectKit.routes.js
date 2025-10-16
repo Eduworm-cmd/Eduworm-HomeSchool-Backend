@@ -9,10 +9,12 @@ const upload = multer({ storage: multer.memoryStorage() });
 
 router.post(
   '/create',
-  isAdmin,
-  upload.fields([{ name: 'thumbnail', maxCount: 1 },]),
+  upload.fields([{ name: 'subjectKitImage', maxCount: 1 },]),
   validate(createSubjectKitValidator),
   subjectKitController.create
 );
+router.get('/all', subjectKitController.getAll);
+router.get('/dropdown/:ageGroup', subjectKitController.dropdownByAgeGroup);
+router.get('/dropdown', subjectKitController.dropdown);
 
 module.exports = router;

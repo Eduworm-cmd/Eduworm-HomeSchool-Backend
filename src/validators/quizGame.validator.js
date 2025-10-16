@@ -5,7 +5,6 @@ const createQuizGameValidator = {
   body: Joi.object({
     title: Joi.string()
       .required()
-      .trim()
       .min(5)
       .max(100)
       .messages({
@@ -14,40 +13,51 @@ const createQuizGameValidator = {
         "any.required": "Game title is required",
       }),
 
-    question: Joi.string()
-      .required()
-      .trim()
-      .min(5)
-      .max(200)
-      .messages({
-        "string.min": "Question must be at least 5 characters",
-        "string.max": "Question must not exceed 200 characters",
-        "any.required": "Question is required",
-      }),
-
-    options: Joi.array()
+    questions: Joi.array()
       .items(
         Joi.object({
-          type: Joi.string().valid('text', 'image').required(),
-          value: Joi.string().trim().min(1).max(200).required(),
+          question: Joi.string()
+            .required()
+            .min(5)
+            .max(200)
+            .messages({
+              "string.min": "Question must be at least 5 characters",
+              "string.max": "Question must not exceed 200 characters",
+              "any.required": "Question is required",
+            }),
+
+          options: Joi.array()
+            .items(
+              Joi.object({
+                text: Joi.string().allow('').max(200),
+                image: Joi.string().uri().allow('').max(500),
+              }).or('text', 'image') // At least one of them must be present
+            )
+            .length(4)
+            .required()
+            .messages({
+              "any.required": "Options are required",
+              "array.length": "Each question must have exactly 4 options",
+            }),
+
+          correctOptionIndex: Joi.number()
+            .integer()
+            .min(0)
+            .max(3)
+            .required()
+            .messages({
+              "number.base": "Correct option index must be a number between 0 and 3",
+              "number.min": "Correct option index must be at least 0",
+              "number.max": "Correct option index must be at most 3",
+              "any.required": "Correct option index is required",
+            }),
         })
       )
-      .length(4)
-      .required()
-      .messages({
-        "any.required": "Options are required",
-        "array.length": "Options must contain exactly 4 items",
-      }),
-
-    correctOption: Joi.string()
-      .required()
-      .trim()
       .min(1)
-      .max(200)
+      .required()
       .messages({
-        "string.min": "Correct option must be at least 1 character",
-        "string.max": "Correct option must not exceed 200 characters",
-        "any.required": "Correct option is required",
+        "any.required": "Questions are required",
+        "array.min": "At least one question is required",
       }),
 
     ageGroup: Joi.string()
@@ -75,6 +85,10 @@ const createQuizGameValidator = {
         "any.invalid": "Subject Kit ID must be a valid MongoDB ObjectId",
         "any.required": "Subject Kit is required",
       }),
+
+    gameType: Joi.string()
+      .valid("QuizGame")
+      .optional(),
   }).unknown(false),
 };
 

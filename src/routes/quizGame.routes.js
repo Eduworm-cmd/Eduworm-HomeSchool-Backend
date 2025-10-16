@@ -16,6 +16,6 @@ router.post(
   quizGameController.create
 );
 
-router.get('/all',isLogin||isAdmin,quizGameController.getAll);
+router.get('/all',quizGameController.getAll);
 
 module.exports = router;

@@ -7,8 +7,13 @@ const ApiResponse = require("../utils/ApiResponse");
 const asyncHandler = require("../utils/asyncHandler");
 
 class QuizGameController {
+
     create = asyncHandler(async (req, res) => {
-        const { title, ageGroup, subjectKit, question, correctOption } = req.body;
+        const { title, ageGroup, subjectKit, questions } = req.body;
+
+        if (!title || !Array.isArray(questions) || questions.length === 0 || !ageGroup || !subjectKit) {
+            throw new ApiError(400, "Missing required fields");
+        }
 
         const existingKit = await subjectKitModel.findById(subjectKit);
         if (!existingKit) throw new ApiError(404, "Subject kit not found");
@@ -16,90 +21,63 @@ class QuizGameController {
         const ageGroupExists = await ageGroupModel.findById(ageGroup);
         if (!ageGroupExists) throw new ApiError(404, "Age group not found");
 
-        let optionsInput = req.body.options;
+        const processedQuestions = [];
 
-        if (typeof optionsInput === "string") {
-            try {
-                optionsInput = JSON.parse(optionsInput);
-            } catch (err) {
-                throw new ApiError(400, "Options must be a valid JSON array");
-            }
-        }
+        for (const q of questions) {
+            const { question, options, correctOptionIndex } = q;
 
-        let finalOptions = [];
-
-        if (
-            Array.isArray(optionsInput) &&
-            optionsInput.length === 4 &&
-            optionsInput.every(
-                (opt) =>
-                    typeof opt === "object" &&
-                    ["text", "image"].includes(opt.type) &&
-                    typeof opt.value === "string" &&
-                    opt.value.trim().length > 0
-            )
-        ) {
-            finalOptions = optionsInput.map((opt) => ({
-                type: opt.type,
-                value: opt.value.trim(),
-            }));
-        }
-        else if (req.files?.options) {
-            const imageFiles = Array.isArray(req.files.options)
-                ? req.files.options
-                : [req.files.options];
-
-            if (imageFiles.length !== 4) {
-                throw new ApiError(400, "Exactly four image options are required");
+            if (!question || !options || correctOptionIndex === undefined) {
+                throw new ApiError(400, "Each question must have 'question', 'options', and 'correctOptionIndex'");
             }
 
-            for (const file of imageFiles) {
-                if (!file.mimetype.startsWith("image/")) {
-                    throw new ApiError(400, "All files must be images");
-                }
-
-                try {
-                    const uploaded = await uploadToCloudinary(file.buffer, 'QuizGames', 'image');
-                    finalOptions.push({
-                        type: "image",
-                        value: uploaded.secure_url,
-                    });
-                } catch (err) {
-                    throw new ApiError(500, `Image upload failed: ${err.message}`);
-                }
+            if (
+                !Array.isArray(options) ||
+                options.length !== 4 ||
+                !options.every(
+                    (opt) =>
+                        typeof opt === "object" &&
+                        ((opt.text && typeof opt.text === "string" && opt.text.trim() !== "") ||
+                            (opt.image && typeof opt.image === "string" && opt.image.trim() !== ""))
+                )
+            ) {
+                throw new ApiError(
+                    400,
+                    "Options must be an array of 4 objects with either 'text' or 'image' for each question"
+                );
             }
-        } else {
-            throw new ApiError(
-                400,
-                "Options must be an array of 4 objects with type and value, or 4 image files"
-            );
-        }
 
-        const validOptionValues = finalOptions.map((opt) => opt.value);
-        if (!validOptionValues.includes(correctOption)) {
-            throw new ApiError(
-                400,
-                "Correct option must match one of the provided options"
-            );
+            const finalOptions = options.map((opt) => {
+                if (opt.text) return { text: opt.text.trim() };
+                if (opt.image) return { image: opt.image.trim() };
+                return {};
+            });
+
+            if (
+                isNaN(correctOptionIndex) ||
+                correctOptionIndex < 0 ||
+                correctOptionIndex > 3
+            ) {
+                throw new ApiError(400, "Correct option index must be between 0 and 3");
+            }
+
+            processedQuestions.push({
+                question: question.trim(),
+                options: finalOptions,
+                correctOptionIndex,
+            });
         }
 
         const newQuiz = await quizGameModel.create({
             title: title.trim(),
             ageGroup,
             subjectKit,
-            question: question.trim(),
-            options: finalOptions,
-            correctOption,
+            questions: processedQuestions,
         });
 
         res.status(201).json(
-            new ApiResponse(201, newQuiz, "Quiz Game created successfully")
+            new ApiResponse(201, newQuiz, "Quiz Game with multiple questions created successfully")
         );
     });
-
-
-
-
 
     getAll = asyncHandler(async (req, res) => {
         const page = parseInt(req.query.page) || 1;
@@ -107,7 +85,6 @@ class QuizGameController {
         const skip = (page - 1) * limit;
         const { subjectKit, ageGroup, title } = req.query;
 
-        // Validate pagination
         if (page < 1 || limit < 1 || limit > 100) {
             throw new ApiError(
                 400,
@@ -126,19 +103,19 @@ class QuizGameController {
             .populate("subjectKit", "name")
             .skip(skip)
             .limit(limit)
-            .sort({ createdAt: -1 });
+            .sort({ createdAt: -1 })
+            .lean();
 
         const total = await quizGameModel.countDocuments(filter);
 
         res.status(200).json(
             new ApiResponse(
-                200,
-                {
+                200,{
                     total,
                     page,
                     limit,
                     pages: Math.ceil(total / limit),
-                    results: allQuizGames,
+                    allQuizGames,
                 },
                 allQuizGames.length === 0
                     ? "No quiz games found"
@@ -146,8 +123,6 @@ class QuizGameController {
             )
         );
     });
-
-
 
 }
 

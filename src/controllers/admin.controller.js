@@ -64,6 +64,13 @@ class AdminController {
             expires: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
         });
 
+        // res.cookie('refreshToken', refreshToken, {
+        //     httpOnly: true,
+        //     secure: false,         
+        //     sameSite: 'Lax',
+        //     expires: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
+        // });
+
 
         res.status(200).json(
             new ApiResponse(200, {
@@ -80,7 +87,7 @@ class AdminController {
 
 
     refreshToken = asyncHandler(async (req, res) => {
-        const refreshToken = req.cookies.refreshToken;        
+        const refreshToken = req.cookies.refreshToken;
 
         if (!refreshToken) {
             throw new ApiError(400, 'Refresh token is required');
@@ -107,7 +114,7 @@ class AdminController {
 
         const admin = await adminModel.findById(decoded.userId);
 
-        
+
         if (!admin) {
             throw new ApiError(404, 'Admin not found');
         }
@@ -128,7 +135,7 @@ class AdminController {
     });
 
     logoutAdmin = asyncHandler(async (req, res) => {
-        
+
         const adminId = req.admin._id;
 
         await redisHelper.del(`admin_refresh_token:${adminId}`);

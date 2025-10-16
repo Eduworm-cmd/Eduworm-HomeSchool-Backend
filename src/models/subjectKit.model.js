@@ -14,9 +14,9 @@ const subjectKitSchema = new mongoose.Schema({
   description: {
     type: String,
   },
-  thumbnail: {
+  subjectKitImage: {
     type: String,
-    required: [true, 'Thumbnail is required']
+    required: [true, 'Subject Kit image is required']
   },
   introVideo: {
     type: String,

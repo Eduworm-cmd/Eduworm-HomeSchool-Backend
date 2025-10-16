@@ -1,0 +1,161 @@
+2025-10-15 11:06:34 [31merror[39m [31m401 - Session expired - Please login again - /api/v1/quizGame/all?page=1&limit=10 - GET - ::1[39m
+2025-10-15 11:10:33 [31merror[39m [31m401 - Session expired - Please login again - /api/v1/quizGame/all?page=1&limit=10 - GET - ::1[39m
+2025-10-15 11:12:16 [31merror[39m [31m401 - Session expired - Please login again - /api/v1/quizGame/all - GET - 192.168.1.5[39m
+2025-10-15 11:12:58 [31merror[39m [31m401 - Unauthorized access - No token provided - /api/v1/quizGame/all - GET - 192.168.1.6[39m
+2025-10-15 11:29:13 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:29:13 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:29:25 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/create - POST - 192.168.1.5[39m
+2025-10-15 11:29:25 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:29:38 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/create - POST - 192.168.1.5[39m
+2025-10-15 11:29:38 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:29:50 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:29:50 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:31:15 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:31:15 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:34:59 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:34:59 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:35:06 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:35:06 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:35:28 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:35:28 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:36:22 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:36:22 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:36:40 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:36:40 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:37:36 [31merror[39m [31m401 - Invalid credentials - /api/v1/admin/login - POST - 192.168.1.5[39m
+2025-10-15 11:37:51 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:37:51 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:38:11 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:38:11 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:39:30 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:39:30 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:39:50 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:39:50 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:40:03 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:40:03 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:40:32 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:40:32 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:40:36 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:40:36 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:40:50 [31merror[39m [31m401 - Invalid credentials - /api/v1/admin/login - POST - 192.168.1.5[39m
+2025-10-15 11:40:57 [31merror[39m [31m401 - Invalid credentials - /api/v1/admin/login - POST - 192.168.1.5[39m
+2025-10-15 11:41:11 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:41:11 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:43:31 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:43:31 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:43:44 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:43:45 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:44:17 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:44:17 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:45:25 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:45:25 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:46:08 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:46:08 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:46:21 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:46:21 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:46:44 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:46:44 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:52:48 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:52:49 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - 192.168.1.5[39m
+2025-10-15 11:56:34 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-15 11:56:34 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-15 11:56:34 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-15 11:56:34 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-15 12:57:01 [31merror[39m [31m400 - "options" must be an array - /api/v1/quizGame/create - POST - ::1[39m
+2025-10-15 12:59:39 [31merror[39m [31m400 - "options" must be an array, Correct option index must be a number between 0 and 3 - /api/v1/quizGame/create - POST - ::1[39m
+2025-10-15 13:00:00 [31merror[39m [31m400 - "options" must be an array - /api/v1/quizGame/create - POST - ::1[39m
+2025-10-15 13:24:05 [31merror[39m [31m400 - Questions are required, "question" is not allowed, "options" is not allowed, "correctOption" is not allowed - /api/v1/quizGame/create - POST - ::1[39m
+2025-10-15 13:28:11 [31merror[39m [31m400 - Options must be an array of 4 objects with either 'text' or 'image' - /api/v1/quizGame/create - POST - ::1[39m
+2025-10-15 13:30:55 [31merror[39m [31m400 - Missing required fields - /api/v1/quizGame/create - POST - ::1[39m
+2025-10-15 13:31:20 [31merror[39m [31m400 - Missing required fields - /api/v1/quizGame/create - POST - ::1[39m
+2025-10-15 15:38:47 [31merror[39m [31m401 - Refresh token not found or invalid - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-15 15:38:47 [31merror[39m [31m401 - Refresh token not found or invalid - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-15 15:39:37 [31merror[39m [31m400 - Age Group already exists - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 15:41:14 [31merror[39m [31m400 - Age Group already exists - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 15:46:02 [31merror[39m [31m400 - Age Group already exists - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 15:46:19 [31merror[39m [31m400 - Age Group already exists - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 15:46:25 [31merror[39m [31m400 - Age Group already exists - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 15:47:09 [31merror[39m [31m400 - Age Group already exists - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 15:49:32 [31merror[39m [31m400 - Age Group already exists - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 15:50:14 [31merror[39m [31m400 - Age Group already exists - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 15:59:34 [31merror[39m [31m401 - Refresh token not found or invalid - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-15 15:59:34 [31merror[39m [31m401 - Refresh token not found or invalid - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-15 16:00:20 [31merror[39m [31m400 - "Maximum age" must be greater than or equal to "Minimum age" - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 16:00:22 [31merror[39m [31m400 - "Maximum age" must be greater than or equal to "Minimum age" - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 16:00:24 [31merror[39m [31m400 - "Maximum age" must be greater than or equal to "Minimum age" - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 16:00:25 [31merror[39m [31m400 - "Maximum age" must be greater than or equal to "Minimum age" - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 16:00:27 [31merror[39m [31m400 - "Maximum age" must be greater than or equal to "Minimum age" - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 16:00:29 [31merror[39m [31m400 - "Maximum age" must be greater than or equal to "Minimum age" - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 16:00:31 [31merror[39m [31m400 - "Maximum age" must be greater than or equal to "Minimum age" - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 16:00:34 [31merror[39m [31m400 - "Maximum age" must be greater than or equal to "Minimum age" - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-15 16:00:48 [31merror[39m [31m400 - Age Group already exists - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-16 10:56:20 [31merror[39m [31m404 - Can't find /api/v1/subjectKit/all?page=1&limit=10 on this server This End Point not Exists ! - /api/v1/subjectKit/all?page=1&limit=10 - GET - ::1[39m
+2025-10-16 11:04:33 [31merror[39m [31m401 - Session expired - Please login again - /api/v1/ageGroup/create - POST - ::1[39m
+2025-10-16 11:17:47 [31merror[39m [31m400 - Age Group is required - /api/v1/subjectKit/dropdownByAgeGroup - GET - ::1[39m
+2025-10-16 11:20:02 [31merror[39m [31m404 - Can't find /api/v1/subjectKit/dropdownByAgeGroup?age=68f0840c7cbddaa4acc07873 on this server This End Point not Exists ! - /api/v1/subjectKit/dropdownByAgeGroup?age=68f0840c7cbddaa4acc07873 - GET - ::1[39m
+2025-10-16 11:28:01 [31merror[39m [31m401 - Refresh token not found or invalid - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:28:01 [31merror[39m [31m401 - Refresh token not found or invalid - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:30:34 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/admin/logout - POST - ::1[39m
+2025-10-16 11:30:34 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:27 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:27 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:27 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:33:27 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:33:27 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:27 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:27 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:33:27 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:35 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/admin/logout - POST - ::1[39m
+2025-10-16 11:33:35 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:44 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/admin/logout - POST - ::1[39m
+2025-10-16 11:33:44 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:55 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:55 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:55 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:33:55 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:33:55 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:55 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:56 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:33:56 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:59 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:59 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:59 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:33:59 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:33:59 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:33:59 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:34:00 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:34:00 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:34:17 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:34:17 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:49:53 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:49:53 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:49:53 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:50:18 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:50:18 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:50:19 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:51:23 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:51:23 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:51:23 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/ageGroup/all?limit=10&page=1 - GET - ::1[39m
+2025-10-16 11:51:52 [31merror[39m [31m401 - Unauthorized - No token provided - /api/v1/admin/logout - POST - ::1[39m
+2025-10-16 11:54:20 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:54:20 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:58:26 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 11:58:26 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 12:02:00 [31merror[39m [31m429 - Too many requests, please try again later. - /api/v1/admin/login - POST - ::1[39m
+2025-10-16 12:02:31 [31merror[39m [31m429 - Too many requests, please try again later. - /api/v1/admin/login - POST - ::1[39m
+2025-10-16 12:05:43 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 12:05:43 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 12:05:45 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 12:05:45 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 12:05:46 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 12:05:46 [31merror[39m [31m400 - Refresh token is required - /api/v1/admin/refreshToken - POST - ::1[39m
+2025-10-16 15:40:41 [31merror[39m [31m401 - Session expired - Please login again - /api/v1/subjectKit/create - POST - ::1[39m
+2025-10-16 15:41:03 [31merror[39m [31m400 - All fields are required - /api/v1/subjectKit/create - POST - ::1[39m
+2025-10-16 15:42:01 [31merror[39m [31m400 - All fields are required - /api/v1/subjectKit/create - POST - ::1[39m
+2025-10-16 15:44:07 [31merror[39m [31m400 - All fields are required - /api/v1/subjectKit/create - POST - ::1[39m
+2025-10-16 15:44:10 [31merror[39m [31m400 - All fields are required - /api/v1/subjectKit/create - POST - ::1[39m
+2025-10-16 15:45:48 [31merror[39m [31m400 - All fields are required - /api/v1/subjectKit/create - POST - ::1[39m
+2025-10-16 15:46:42 [31merror[39m [31m400 - All fields are required - /api/v1/subjectKit/create - POST - ::1[39m
+2025-10-16 15:46:53 [31merror[39m [31m400 - All fields are required - /api/v1/subjectKit/create - POST - ::1[39m
+2025-10-16 15:47:09 [31merror[39m [31m400 - All fields are required - /api/v1/subjectKit/create - POST - ::1[39m
+2025-10-16 15:47:34 [31merror[39m [31m400 - Subject Kit already exists - /api/v1/subjectKit/create - POST - ::1[39m
